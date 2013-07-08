@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<div class="container">
+  <h1>ChantalHub</h1>
+
+<div class="screen">
+<h2>All of Your Repositories</h2>
+  <% @repos.each do |repo| %>
+    <p><%= repo.name %></p>
+<br>
+
+<h2>All of Your Followers</h2>
+  <% @repos.each do |repo| %>
+    <p><%= repo.followers %></p>
+
+<h2>All of Your Gists</h2>
+  <% @repos.each do |repo| %>
+    <p><%= repo.gists %></p>
+
+    </div>
+    </div>
+</html>

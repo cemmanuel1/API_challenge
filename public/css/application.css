@@ -4,14 +4,16 @@
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
 }
-html { 
-	height: 100% 
-}
+
       
-body { 
-	height: 100%; margin: 0; padding: 0 
-}
-      
-#map-canvas {
-	height: 100%
+.screen {
+  border: 1px solid;
+  margin: auto auto;
+  width: 350px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 30px;
+  -moz-box-shadow:    3px 3px 4px 5px #2D3036;
+  -webkit-box-shadow: 3px 3px 4px 5px #2D3036;
+  box-shadow:         3px 3px 4px 5px #2D3036;
 }
